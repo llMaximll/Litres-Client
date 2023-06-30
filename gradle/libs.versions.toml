@@ -1,5 +1,5 @@
 [versions]
-agp = "8.2.0-alpha09"
+agp = "8.2.0-alpha10"
 kotlin = "1.8.10"
 core-ktx = "1.10.1"
 junit = "4.13.2"
@@ -16,6 +16,7 @@ datastore-preferences = "1.0.0"
 retrofit2 = "2.9.0"
 okhttp3 = "5.0.0-alpha.11"
 timber = "5.0.1"
+security = "1.1.0-alpha06"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -42,6 +43,7 @@ retrofit2-converter = { group = "com.squareup.retrofit2", name = "converter-gson
 okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3" }
 okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp3" }
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+security = { group = "androidx.security", name = "security-crypto", version.ref = "security" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

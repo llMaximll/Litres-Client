@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Litres_Client</string>
+    <!--  Common  -->
+    <string name="app_name">Litres</string>
+    <string name="common_error">Something wrong happened. Please try again.</string>
+
+    <!--  Errors  -->
+    <string name="token_error_blank">The token cannot be empty</string>
+    <string name="invalid_api_key">The entered token does not exist</string>
+    <string name="error_undefined">Unknown error</string>
+    <string name="error_auth_invalid_sid">Invalid login/password combination</string>
+    <string name="error_auth_lot_mistakes">There are too many authorization errors, access is temporarily blocked</string>
+    <string name="error_auth_user_blocked">Authorization is prohibited</string>
+    <string name="error_auth_forbidden_library">It is forbidden to log in with a librarian account in this application</string>
+
+    <!--  SplashScreen  -->
+    <string name="splash_logo_1">Lit</string>
+    <string name="splash_logo_2">res</string>
+
+    <!--  AuthScreen  -->
+    <string name="auth_login_hint">Enter your login</string>
+    <string name="auth_password_hint">Enter your password</string>
+    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_login">Login</string>
+    <string name="auth_sign_up_1">Don\'t have an account? </string>
+    <string name="auth_sign_up_2">Sign Up</string>
+    <string name="auth_error_login_empty">The login cannot be empty</string>
+    <string name="auth_error_password_empty">The password cannot be empty</string>
+
 </resources>

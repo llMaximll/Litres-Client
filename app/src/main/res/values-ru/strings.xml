@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Common  -->
+    <string name="app_name">Литрес</string>
+    <string name="common_error">Что-то случилось. Пожалуйста, попробуйте снова</string>
+
+    <!--  Errors  -->
+    <string name="token_error_blank">Токен не может быть пустой</string>
+    <string name="invalid_api_key">Введенный токен не существует</string>
+    <string name="error_undefined">Неизвестная ошибка</string>
+    <string name="error_auth_invalid_sid">Неверное сочетание логина/пароля</string>
+    <string name="error_auth_lot_mistakes">Слишком много ошибок авторизации, доступ временно заблокирован</string>
+    <string name="error_auth_user_blocked">Авторизация запрещена</string>
+    <string name="error_auth_forbidden_library">В этом приложении запрещено авторизовываться под учётной записью библиотекаря</string>
+
+    <!--  SplashScreen  -->
+    <string name="splash_logo_1">Лит</string>
+    <string name="splash_logo_2">рес</string>
+
+    <!--  AuthScreen  -->
+    <string name="auth_login_hint">Введите свой логин</string>
+    <string name="auth_password_hint">Введите свой пароль</string>
+    <string name="auth_forgot_password">Забыли пароль?</string>
+    <string name="auth_login">Войти</string>
+    <string name="auth_sign_up_1">Нет аккаунта? </string>
+    <string name="auth_sign_up_2">Зарегистрироваться</string>
+    <string name="auth_error_login_empty">Логин не может быть пустой</string>
+    <string name="auth_error_password_empty">Пароль не может быть пустой</string>
+
+</resources>
